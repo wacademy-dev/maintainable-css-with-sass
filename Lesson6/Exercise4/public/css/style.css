@@ -5,6 +5,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #19647E;
 }
 
 * {
@@ -16,6 +17,19 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-/* ¡¡¡Start writing your Sassy CSS below!!!  */
+/* ¡¡¡Let's tone down the nesting a smidge!!!  */
+.molecule {
+  padding: 4rem;
+  background: #15DEA5;
+}
+.molecule .atom {
+  padding: 4rem;
+  background: #EA526F;
+}
+.molecule .atom .particle {
+  padding: 4rem;
+  background: #37392E;
+}

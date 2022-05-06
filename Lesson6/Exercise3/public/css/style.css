@@ -5,6 +5,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #19647E;
 }
 
 * {
@@ -16,6 +17,18 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-/* ¡¡¡Start writing your Sassy CSS below!!!  */
+/* ¡¡¡Nest your :focus selector below!!!  */
+.input {
+  background-color: #19647E;
+  outline: none;
+  border: 1px solid #EA526F;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #EA526F;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}

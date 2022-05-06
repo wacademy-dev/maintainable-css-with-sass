@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,900i');
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #19647E;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* ¡¡¡Let's tone down the nesting a smidge!!!  */
+
+.molecule {
+  padding: 4rem;
+  background: #15DEA5;
+  .atom {
+    padding: 4rem;
+    background: #EA526F;
+    .particle {
+      padding: 4rem;
+      background: #37392E;
+    }
+  }
+}
