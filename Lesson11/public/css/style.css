@@ -17,20 +17,14 @@ html, body {
   flex-wrap: wrap;
 }
 
-.heading-typography, .proj-prev__heading, .form__heading {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  color: #fff;
-}
-
 .form {
   background: #15DEA5;
   width: 100%;
   padding: 1rem 2rem;
 }
-.proj-prev {
-  background: #EA526F;
-  width: 100%;
-  padding: 1rem 2rem;
+.form__heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  color: #fff;
 }
