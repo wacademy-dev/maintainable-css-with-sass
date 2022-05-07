@@ -1,0 +1,17 @@
+<h3>Lesson 14, Exercise 1</h3>
+<p>We&rsquo;ve been using a lot of Sass&rsquo; built-in color functions, now let&rsquo;s make a color function of our own! Rather than shifting the hue of our button when it&rsquo;s being hovered over, let&rsquo;s change its background color to a pastel version of the original color.</p>
+<p>Pastel colors tend to have a saturation of 100% and a lightness of about 90%. So, we have the &ldquo;s&rdquo; and &ldquo;l&rdquo; values of the&nbsp;<code>hsl()</code>&nbsp;function, all that&rsquo;s missing is the hue, which we can extract using Sass&rsquo;&nbsp;<code>hue()</code>&nbsp;function.</p>
+<p>The .scss file is located in /sass/main.scss. It will compile to /public/css/style.css.</p>
+<p><strong>Tasks</strong></p>
+<p>Declare a new function using the&nbsp;<code>@function</code>&nbsp;keyword, and give it the name &ldquo;pastel&rdquo;</p>
+<p>Add an argument to our new&nbsp;<code>pastel()</code>&nbsp;function called&nbsp;<code>$clr</code>, which will be the color that we want to turn into a pastel color</p>
+<p>Add the curly braces after the parentheses</p>
+<p>Within the curly braces, declare a variable called&nbsp;<code>$hue</code>&nbsp;and for a value, assign it the hue of&nbsp;<code>$clr</code></p>
+<p>Create a variable for the saturation of our pastel color called&nbsp;<code>$sat</code>, and give it a value of&nbsp;<code>100%</code></p>
+<p>Create a variable for the lightness of our pastel color called&nbsp;<code>$light</code>, and give it a value of&nbsp;<code>90%</code></p>
+<p>Create a variable for our new pastel color called&nbsp;<code>$pastel</code>, and use the&nbsp;<code>hsl()</code>&nbsp;function to create its value, passing&nbsp;<code>$hue</code>,&nbsp;<code>$sat</code>, and&nbsp;<code>$light</code>&nbsp;as its values</p>
+<p>Now it&rsquo;s time to return our pastel color by using the&nbsp;<code>@return</code>&nbsp;keyword followed by the value that we want to return,&nbsp;<code>$pastel</code></p>
+<p>Use our new&nbsp;<code>pastel()</code>&nbsp;function to set the background color of&nbsp;<code>.btn:hover</code>, passing&nbsp;<code>.btn&rsquo;</code>s background color of&nbsp;<code>$color-primary</code>&nbsp;as its argument</p>
+<p>To make the font more legible in the hover state, let&rsquo;s set the font color of&nbsp;<code>.btn:hover</code>&nbsp;to the original&nbsp;<code>$color-primary</code>&nbsp;value</p>
+<p>Review the rendered site. When hovered over, the button should turn a pastel, mint-green with the original, bright mint-green of&nbsp;<code>$color-primary</code>&nbsp;as its font color</p>
+<p>Review the compiled CSS.&nbsp;<code>.btn:hover</code>&nbsp;should have a background color of&nbsp;<code>#CCFFEF</code>, which is the pastel version of&nbsp;<code>$color-primary</code>&rsquo;s&nbsp;<code>#15DEA5</code></p>

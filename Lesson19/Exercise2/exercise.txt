@@ -1,0 +1,14 @@
+<p>Lesson 19, Exercise 2</p>
+<p>We&rsquo;ve fixed the image width of our articles using a breakpoint, but there&rsquo;s more that we can do to fix the responsiveness of our article wireframe. The article itself is a good place to start. On the desktop, it has a width of&nbsp;<code>75%</code>, but, just like the image, we&rsquo;d like it to occupy the full width of the container on a mobile screen. And let&rsquo;s make the summary font size a bit bigger while we&rsquo;re at it.</p>
+<p>We could create another media query, but a DRY-er way of doing things would be to port the media query we made for the image width into a mixin, using Sass&rsquo;&nbsp;<code>@content</code>&nbsp;directive to make it more versatile and reusable.</p>
+<p><strong>Tasks</strong></p>
+<ul>
+<li>Create a mixin named&nbsp;<code>mobile-only</code></li>
+<li>Cut the media query from the&nbsp;<code>.article__selector</code>&nbsp;and paste it inside of the&nbsp;<code>mobile-only</code>&nbsp;mixin</li>
+<li>Replace the&nbsp;<code>width</code>&nbsp;property with the Sass&nbsp;<code>@content</code>&nbsp;directive</li>
+<li>Include the mobile-only mixin within the&nbsp;<code>.article__selector</code>, using a set of curly braces to include the rules that we want placed within the mixin&rsquo;s media query:&nbsp;<code>width: 100%;</code></li>
+<li>Do the same for the&nbsp;<code>.article</code>&nbsp;selector, setting it&rsquo;s&nbsp;<code>width</code>&nbsp;to&nbsp;<code>100%</code>&nbsp;as well.</li>
+<li>Include the&nbsp;<code>mobile-only</code>&nbsp;mixin within the&nbsp;<code>.article__summary</code>&nbsp;mixin, setting the&nbsp;<code>font-size</code>&nbsp;to&nbsp;<code>1.5rem</code></li>
+<li>Review the rendered page. When the browser is scaled down to a mobile-size width, the article block should occupy 100% of the width of the window, as should the image. The summary font size should increase 50% to&nbsp;<code>1.5rem</code></li>
+<li>Review the compiled CSS. Each of the selectors that contained the mobile-only mixin should now have a media query containing the properties that we included in its instance of the mixin</li>
+</ul>

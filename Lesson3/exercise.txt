@@ -1,63 +1,10 @@
-<div class="left-sidebar__header" style='box-sizing: inherit; display: flex; position: relative; flex: 0 0 auto; flex-flow: row nowrap; align-items: center; justify-content: center; border-bottom: 1px solid var(--border); background: var(--secondary-bg); min-height: 47px; color: rgba(0, 0, 0, 0.87); font-family: "PS TT Commons Roman", "Gotham SSm A", "Gotham SSm B", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>
-    <div class="left-sidebar__header-wrapper" style="box-sizing: inherit; display: flex; justify-content: space-between; margin: 0 calc(var(--spacing-unit) * (1 - var(--full-width))); width: 402.797px; max-width: 768px;"><span aria-level="1" style="box-sizing: inherit;">
-            <div class="custom-markdown left-sidebar__header-title steps-sidebar__step-title" style="box-sizing: inherit; word-break: break-word; font-size: 24px; display: inline-flex; line-height: 1.61803; font-weight: 600;">
-                <p style="box-sizing: inherit; margin: 0px;">Lesson 3, Exercise 1</p>
-            </div>
-        </span></div>
-</div>
-<div class="js-reset-scroll left-sidebar__contents" style='box-sizing: inherit; display: flex; flex: 1 0 0%; flex-direction: column; overflow-y: auto; font-size: 15px; color: rgba(0, 0, 0, 0.87); font-family: "PS TT Commons Roman", "Gotham SSm A", "Gotham SSm B", Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>
-    <div style="box-sizing: inherit; float: left; z-index: 20; margin: 0px auto; width: 448.797px; max-width: 768px; height: 609px;">
-        <div class="steps-sidebar__blocks" style="box-sizing: inherit; display: flex; flex-direction: column; margin: 0px auto; padding: 24px 0px 0px; max-width: 768px; height: 609px;">
-            <div class="custom-markdown steps-contents" style="box-sizing: inherit; word-break: break-word; font-size: 16px; line-height: var(--line-height);">
-                <p style="box-sizing: inherit; margin-top: 0px; margin-bottom: ; margin-right: ; margin-left: ;">We&rsquo;ve created poll, where we can vote whether a puppy is adorable, or just flat-out awwwwwww. But now that we&rsquo;ve learned all about the awesomeness of BEM, our CSS feels a bit messy.</p>
-                <p style="box-sizing: inherit; margin: 0 calc(var(--spacing-unit) * calc(1 - var(--full-width))) var(--spacing-unit);">Let&rsquo;s go back and refactor our code by converting the classes that make up our &ldquo;poll&rdquo; block, using the BEM methodology.</p>
-            </div>
-            <div class="custom-markdown steps-contents" style="box-sizing: inherit; word-break: break-word; font-size: 16px; line-height: var(--line-height);">
-                <p style="box-sizing: inherit; margin-top: 0px; margin-bottom: ; margin-right: ; margin-left: ;">The .scss file is located in /sass/main.scss. It will compile to /public/css/style.css.</p>
-            </div>
-            <div class="step-block-outer step-block--not-last" style="box-sizing: inherit;">
-                <div aria-level="2" class="step-block-header" style="box-sizing: inherit; margin: 0px 0px 6px; text-align: center; font-size: 17px; font-weight: var(--ps-type-font-weight-strong);">Tasks</div>
-                <div aria-labelledby="task-info-317691ca-1138-4d0b-99b3-65b3c840103b" class="task-result                      collapsed                      " style="box-sizing: inherit; position: relative; transition: box-shadow 0.12s linear 0s; border-bottom: 1px solid rgba(0, 0, 0, 0.15); box-shadow: rgba(0, 0, 0, 0.15) 1px 0px, rgba(0, 0, 0, 0.15) -1px 0px; width: 448.797px; border-top: 1px solid rgba(0, 0, 0, 0.15);">
-                    <div class="task-inner" style="box-sizing: inherit; display: flex; flex-direction: row; justify-content: space-between; padding: 7px;">
-                        <div class="task-status" style="box-sizing: inherit; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; margin-right: 10px; border-right: 1px solid rgba(0, 0, 0, 0.05); padding: 0px 7px 0px 0px; min-width: 48px;"><button aria-label="Run checks for incomplete task." class="button--reset mock-checkbox   next-task" style="box-sizing: inherit; border-radius: 50%; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: none; border: none; background: center center transparent; padding: 0px; width: 40px; color: inherit; font-weight: inherit; -webkit-font-smoothing: inherit; font-style: inherit; display: flex; align-items: center; justify-content: center; transition: background 150ms ease-in-out 0s; cursor: pointer; min-width: 40px; height: 40px; max-height: 40px;" type="button">
-                                <div class="mock-checkbox__inner" style="box-sizing: inherit; display: flex; position: relative; align-items: center; justify-content: center; transition: all 150ms ease-in-out 0s; border: 2px solid rgb(156, 156, 156); border-radius: 3px; background: transparent; width: 22px; height: 22px; color: rgb(255, 255, 255); font-size: 16px; animation: 3s ease 0s infinite normal none running shadow-pulse;"><br></div>
-                            </button></div>
-                        <div class="task-info" style="box-sizing: inherit; display: flex; flex-grow: 1; flex-direction: column; max-width: calc((100% - 58px) - 47px);">
-                            <div class="custom-markdown summary" style="box-sizing: inherit; word-break: break-word; font-size: 16px; display: inline-block; vertical-align: top; max-width: 100%; overflow: hidden; font-weight: 400;">
-                                <p style="box-sizing: inherit; margin: 0px; padding: 0.6em 0px;">Identify the block class and use it as the base in the naming for the elements/modifier</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="step-block-outer step-block--not-last" style="box-sizing: inherit;">
-                <div aria-labelledby="task-info-d6336e5f-04b1-4417-9403-8aa3f4112b18" class="task-result           appended           collapsed                      " style="box-sizing: inherit; position: relative; transition: box-shadow 0.12s linear 0s; border-bottom: 1px solid rgba(0, 0, 0, 0.15); box-shadow: rgba(0, 0, 0, 0.15) 1px 0px, rgba(0, 0, 0, 0.15) -1px 0px; width: 448.797px;">
-                    <div class="task-inner" style="box-sizing: inherit; display: flex; flex-direction: row; justify-content: space-between; padding: 7px;">
-                        <div class="task-status" style="box-sizing: inherit; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; margin-right: 10px; border-right: 1px solid rgba(0, 0, 0, 0.05); padding: 0px 7px 0px 0px; min-width: 48px;"><button aria-label="Run checks for incomplete task." class="button--reset mock-checkbox   " style="box-sizing: inherit; border-radius: 50%; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: none; border: none; background: center center transparent; padding: 0px; width: 40px; color: inherit; font-weight: inherit; -webkit-font-smoothing: inherit; font-style: inherit; display: flex; align-items: center; justify-content: center; transition: background 150ms ease-in-out 0s; cursor: pointer; min-width: 40px; height: 40px; max-height: 40px;" type="button">
-                                <div class="mock-checkbox__inner" style="box-sizing: inherit; display: flex; position: relative; align-items: center; justify-content: center; transition: all 150ms ease-in-out 0s; border: 2px solid rgb(156, 156, 156); border-radius: 3px; background: transparent; width: 22px; height: 22px; color: rgb(255, 255, 255); font-size: 16px;"><br></div>
-                            </button></div>
-                        <div class="task-info" style="box-sizing: inherit; display: flex; flex-grow: 1; flex-direction: column; max-width: calc((100% - 58px) - 47px);">
-                            <div class="custom-markdown summary" style="box-sizing: inherit; word-break: break-word; font-size: 16px; display: inline-block; vertical-align: top; max-width: 100%; overflow: hidden; font-weight: 400;">
-                                <p style="box-sizing: inherit; margin: 0px; padding: 0.6em 0px;">Convert the name of the other classes to fit as elements and modifiers within the block poll block.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="step-block-outer " style="box-sizing: inherit;">
-                <div aria-labelledby="task-info-c1cd3e85-9272-4c0a-a73d-455c7d021b49" class="task-result           appended           collapsed                      " style="box-sizing: inherit; position: relative; transition: box-shadow 0.12s linear 0s; border-bottom: 1px solid rgba(0, 0, 0, 0.15); box-shadow: rgba(0, 0, 0, 0.15) 1px 0px, rgba(0, 0, 0, 0.15) -1px 0px; width: 448.797px; margin-bottom: var(--spacing-unit);">
-                    <div class="task-inner" style="box-sizing: inherit; display: flex; flex-direction: row; justify-content: space-between; padding: 7px;">
-                        <div class="task-status" style="box-sizing: inherit; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; margin-right: 10px; border-right: 1px solid rgba(0, 0, 0, 0.05); padding: 0px 7px 0px 0px; min-width: 48px;"><button aria-label="Run checks for incomplete task." class="button--reset mock-checkbox   " style="box-sizing: inherit; border-radius: 50%; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: none; border: none; background: center center transparent; padding: 0px; width: 40px; color: inherit; font-weight: inherit; -webkit-font-smoothing: inherit; font-style: inherit; display: flex; align-items: center; justify-content: center; transition: background 150ms ease-in-out 0s; cursor: pointer; min-width: 40px; height: 40px; max-height: 40px;" type="button">
-                                <div class="mock-checkbox__inner" style="box-sizing: inherit; display: flex; position: relative; align-items: center; justify-content: center; transition: all 150ms ease-in-out 0s; border: 2px solid rgb(156, 156, 156); border-radius: 3px; background: transparent; width: 22px; height: 22px; color: rgb(255, 255, 255); font-size: 16px;"><br></div>
-                            </button></div>
-                        <div class="task-info" style="box-sizing: inherit; display: flex; flex-grow: 1; flex-direction: column; max-width: calc((100% - 58px) - 47px);">
-                            <div class="custom-markdown summary" style="box-sizing: inherit; word-break: break-word; font-size: 16px; display: inline-block; vertical-align: top; max-width: 100%; overflow: hidden; font-weight: 400;">
-                                <p style="box-sizing: inherit; margin: 0px; padding: 0.6em 0px;">Update the HTML document with the new class names.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<h3>Lesson 3, Exercise</h3>
+<p>We&rsquo;ve created poll, where we can vote whether a puppy is adorable, or just flat-out awwwwwww. But now that we&rsquo;ve learned all about the awesomeness of BEM, our CSS feels a bit messy.</p>
+<p>Let&rsquo;s go back and refactor our code by converting the classes that make up our &ldquo;poll&rdquo; block, using the BEM methodology.</p>
+<p>The .scss file is located in /sass/main.scss. It will compile to /public/css/style.css.</p>
+<p><strong>Tasks</strong></p>
+<ul>
+<li>Identify the block class and use it as the base in the naming for the elements/modifier</li>
+<li>Convert the name of the other classes to fit as elements and modifiers within the block poll block.</li>
+<li>Update the HTML document with the new class names.</li>
+</ul>

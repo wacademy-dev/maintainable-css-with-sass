@@ -1,0 +1,13 @@
+<h3>Lesson 13, Exercise 2</h3>
+<p>Let&rsquo;s take the hover mixin that we created and refine it a touch. Right now, it shifts the hue +30 degrees if the hue is less than 180, and -60 degrees if it is greater than or equal to 180. It&rsquo;s one way, or another. But we can use more than one conditional statement to create a pocket of values to affect via the&nbsp;<code>@if</code>&nbsp;statement, surrounded by values that return false.</p>
+<p>Rather than a singular statement that the hue is less than 180, let&rsquo;s create a range of values that will return true if the hue is greater than or equal to 135 and less than 180. And for those values, let&rsquo;s adjust the hue more radically, by 180 degrees, which we can do by the&nbsp;<code>adjust-hue()</code>&nbsp;function, or more simply, the&nbsp;<code>complement()</code>&nbsp;function that automatically returns the complement of the passed color (complements are located 180 degrees away on the color wheel). You can check out the full documentation of the complement() function here if you&rsquo;d like:&nbsp;<a href="http://sass-lang.com/documentation/Sass/Script/Functions.html#complement-instance_method" target="_blank" rel="noopener noreferrer">http://sass-lang.com/documentation/Sass/Script/Functions.html#complement-instance_method</a></p>
+<p>The .scss file is located in /sass/main.scss. It will compile to /public/css/style.css.</p>
+<div><strong>Tasks</strong></div>
+<ul>
+<li>Alter the conditional statement contained within the &ldquo;hover mixin&rdquo; to state that the hue is greater than or equal to 135:&nbsp;<code>&gt;=</code></li>
+<li>Add a second conditional statement by using the keyword&nbsp;<code>and</code>&nbsp;followed by a statement that the hue is less than (&nbsp;<code>&gt;</code>&nbsp;) 180</li>
+<li>Update the&nbsp;<code>@if</code>&nbsp;operation to use the&nbsp;<code>complement()</code>&nbsp;function, with the background color of the button passed as its argument:&nbsp;<code>$color-primary</code></li>
+<li>Review the rendered page. The value assigned to&nbsp;<code>$color-primary</code>,&nbsp;<code>#15DEA5</code>, has a hue of 163 degrees, so the hover color should be its complement, which is pink!</li>
+<li>Review the compiled CSS. The&nbsp;<code>.btn:hover</code>&nbsp;selector should have a background color of&nbsp;<code>#DE154E</code>, which is the complement of&nbsp;<code>#15DEA5</code></li>
+<li>Feel free to adjust the color of&nbsp;<code>$color-primary</code>&nbsp;(such as&nbsp;<code>#19647E</code>) and see how the color of the button&rsquo;s hover state changes</li>
+</ul>

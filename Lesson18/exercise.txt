@@ -1,0 +1,13 @@
+<h3>Lesson 18, Exercise</h3>
+<p>Now that we have the palette for our button modifiers stored in map, let&rsquo;s save ourselves a bit of work updating and maintaining them but putting Sass to work and have it generate the modifier selectors automatically based on the contents of the&nbsp;<code>$btn-mods</code>&nbsp;map.</p>
+<p><strong>Tasks</strong></p>
+<ul>
+<li>Store our loop logic in a mixin called&nbsp;<code>btn-mods</code>&nbsp;with an argument for&nbsp;<code>$map</code></li>
+<li>Inside of the mixin, set up an&nbsp;<code>@each</code>&nbsp;loop with the variables&nbsp;<code>$mod</code>&nbsp;and&nbsp;<code>$val</code>&nbsp;for the contents of&nbsp;<code>$map</code></li>
+<li>Inside of the&nbsp;<code>@each</code>&nbsp;loop, use the interpolation syntax to fill in the selector after an ampersand and set of dashes:&nbsp;<code>&amp;--#{$mod}</code></li>
+<li>Inside of the modifier selector, create a background property and give it the value of&nbsp;<code>$val</code></li>
+<li>Remove the modifier&nbsp;<code>&amp;--pink {...}</code>&nbsp;and&nbsp;<code>&amp;--blue {...}</code>&nbsp;selectors and their properties</li>
+<li>Include the&nbsp;<code>btn-mods</code>&nbsp;mixin at the end of the&nbsp;<code>.btn</code>&nbsp;block, passing&nbsp;<code>$btn-mods</code>&nbsp;as the argument</li>
+<li>Check the compiled CSS. Sass should have generated the&nbsp;<code>.btn--pink</code>&nbsp;and&nbsp;<code>.btn--blue</code>&nbsp;modifiers with appropriate background colors</li>
+<li>Check the rendered page that the buttons display with the proper colors</li>
+</ul>
