@@ -1,8 +1,0 @@
-<h3>Lesson 7, Exercise 1</h3>
-<p>Let&rsquo;s revisit the Puppy Cuteness Poll that we BEM-ized a few exercises back. Now that we&rsquo;ve unleashed the raw power of Sass nesting, and learned to focus it with the ampersand, let&rsquo;s refactor our poll components to fit within a Sass nest, while retaining their flat specificity.</p>
-<p>The .scss file is located in /sass/main.scss. It will compile to /public/css/style.css.</p>
-<p><strong>Tasks</strong></p>
-<p>Nest the element and modifier selectors within the&nbsp;<code>.poll</code>&nbsp;block</p>
-<p>Update each selector&rsquo;s name, replacing the block prefix with the ampersand symbol:&nbsp;<code>&amp;</code></p>
-<p>Review the rendered HTML to make sure we didn&rsquo;t break anything along the way.</p>
-<p>Review the compiled CSS. We should see BEM selectors, identical to what we had as raw CSS at the end of the exercise from Lesson 2</p>

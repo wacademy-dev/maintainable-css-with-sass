@@ -1,8 +1,0 @@
-<h3>Lesson 5, Exercise 1</h3>
-<p>Nesting in Sass is awesome, but sometimes we might want to nest a selector that doesn&rsquo;t work any of the CSS combinators, such as pseudo-selectors like&nbsp;<code>:hover</code>&nbsp;and&nbsp;<code>:focus</code>. For times like those, we want to use the ampersand ( &amp; ) to join the name of the parent to child being nested.</p>
-<p>The .scss file is located in /sass/main.scss. It will compile to /public/css/style.css.</p>
-<p><strong>Tasks</strong></p>
-<p>Create a class selector called&nbsp;<code>.test</code></p>
-<p>Add two properties of your choosing, such as&nbsp;<code>background-color</code>, or&nbsp;<code>padding</code>.</p>
-<p>Compare your .scss with the compiled .css file (they should look identical)</p>
-<p>Add the&nbsp;<code>test</code>&nbsp;class to the HTML div and view the results</p>

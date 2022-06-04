@@ -1,9 +1,0 @@
-<h3>Lesson 15, Exercise 1</h3>
-<p>Let&rsquo;s clean house a bit! Our Sass file is getting a bit long, and all that scrolling is getting obnoxious. We can get started by setting up the directories to organize our code with the 7-1 file system.</p>
-<p><strong>Task</strong></p>
-<p>Within the sass/ directory, create directories for each of the seven categories: Base, Utils, Layout, Components, Pages, Themes, and Vendors.</p>
-<p>This can be done by clicking the &ldquo;create directory&rdquo; and naming the newly created directory appropriately.</p>
-<p>Or it can be done via the terminal:</p>
-<ul>
-<li>First change the directory to the Sass directory by typing &ldquo;cd sass&rdquo; *Make the directories by using the mkdir command followed by a list of the directories we want to create</li>
-</ul>

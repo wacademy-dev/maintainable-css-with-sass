@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "index.html",
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded --no-source-map"
   },
   "author": "",

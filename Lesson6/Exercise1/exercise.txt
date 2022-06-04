@@ -1,7 +1,0 @@
-<h3>Lesson 6 Exercise 1</h3>
-<p>Let&rsquo;s give our CSS some structure and put our new-found nesting knowledge to use. Right now, we have a .parent selector, and a .child selector. Let&rsquo;s organize them to reflect their relationship using Sass&rsquo; nesting by placing the .child rule set within the .parent rule set.</p>
-<p><strong>Tasks</strong></p>
-<ul>
-<li>Nest the&nbsp;<code>.child</code>&nbsp;selector and its contents within&nbsp;<code>.parent</code></li>
-<li>Review the resulting CSS. The nested&nbsp;<code>.child</code>&nbsp;class should now be compiled as&nbsp;<code>.parent .child {...}</code></li>
-</ul>
